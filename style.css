@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+}
+
+#main{
+	background-color: #000;
+}
+
+#page1{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+#page1>h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 500;
+	font-size: 5vw;
+}
+
+.img{
+	width: 100%;
+	height: inherit;
+	position: relative;
+}
+
+.img img{
+	position: absolute;
+	width: 30%;
+	height: 75%;
+	border-radius: 35px;
+	cursor: pointer;
+}
+
+.one{
+	top: 50%;
+	right: 2%;
+	transform: translate(-2%, -50%);
+}
+
+.two{
+	top: 50%;
+	left: 7%;
+	transform: translate(-7%, -50%);
+}
+
+.three{
+	top: 50%;
+	right: 2%;
+	transform: translate(-2%, -50%);
+}
+
+.four{
+	top: 50%;
+	left: 7%;
+	transform: translate(-7%, -50%);
+}
+
+.five{
+	top: 50%;
+	right: 2%;
+	transform: translate(-2%, -50%);
+}
+
+.six{
+	top: 50%;
+	left: 7%;
+	transform: translate(-7%, -50%);
+}
